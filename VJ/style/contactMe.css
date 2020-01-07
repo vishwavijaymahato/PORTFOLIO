@@ -1,0 +1,261 @@
+ @import url('https://fonts.googleapis.com/css?family=Muli');
+ @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+
+#contactMePage{
+	background-color: transparent;
+	/*background-color:rgba(25, 42, 86,1.0);*/
+	color: #fff;
+	height: 100vh;
+}
+
+
+#contactMeheaderDiv{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contactMeHead{
+	text-align: center;
+	font-weight: 500;
+	font-family: 'ZCOOL XiaoWei', serif;
+	font-size: 90px;
+	color: #F8EFBA;
+}
+
+.contactMePara{
+	margin-top: 20px;
+	font-size: 22px;
+	text-align: left;
+    font-family: 'Muli', sans-serif;
+    
+}
+
+.mailSpan{
+	font-weight: bold;
+	font-size: 20px;
+	
+}
+
+#contactForm{
+	width: 80%;
+	text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+}
+
+#username,#email{
+	height: 10vh;
+	width: 50%;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid #fff;
+	background-color: transparent;
+}
+
+
+
+
+#contactForm input[type='text']{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	font-size: 5vh;
+	color: #fff;
+	font-style: italic;
+	font-family: 'ZCOOL XiaoWei', serif;
+	/*font-weight: bold;*/
+}
+#contactForm input[type='email']{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	font-size: 4vh;
+	color: #fff;
+	font-style: italic;
+	font-family: 'ZCOOL XiaoWei', serif;
+	/*font-weight: bold;*/
+}
+#contactForm textarea{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+	font-size: 5vh;
+	color: #fff;
+	background-color: transparent;
+	/*font-family: 'ZCOOL XiaoWei', serif;*/
+	width: 50%;
+	border:none;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+
+}
+
+
+.Btn{
+	padding:5px 30px 5px 30px;
+	background-color:#DAE0E2;
+	color: #000;
+	font-size: 20px;
+	font-family: halvetica,serif,arial;
+	border:none;
+	border-bottom:10px solid darkgray;
+	border-radius: 4%;
+	box-shadow: 0px 2px 10px 2px #000000;
+}
+
+.Btn:hover{
+	background-color: #99AAAB;
+	border-bottom: 10px solid #777777;
+	cursor: pointer;
+}
+
+.Btn:active{
+	transform: translateX(5px);
+	color: #fff;
+}
+
+
+#socialMediaDiv h1{
+	  font-size: 5vh;
+	  color: #F8EFBA;
+	  /*color: #10ac84;*/
+     font-family: 'Noto Serif', serif;
+} 
+#socialMediaDiv p{
+	 color: #dff9fb;
+	 font-size: 3vh;
+	 line-height: 1.5em;
+	 margin-bottom: 3vh;
+}
+
+#socialMediaDiv{
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 5%;
+	align-items: center;
+}
+
+.facebookBtn{
+   background-color: #3B5998;
+   border:none;
+   color: #fff;
+   padding: 8px;
+   text-align: center;
+   border:none;
+   border-bottom:10px solid #5758BB;
+   box-shadow: 0px 2px 10px 2px #000000;
+   margin-left:1%;
+   border-radius:5%;
+   margin-bottom:10px;
+}
+
+
+.twitterBtn{
+   background-color: #1DA1F2;
+   border:none;
+   color: #fff;
+   padding: 8px;
+   text-align: center;
+   border:none;
+   border-bottom:10px solid #0074e1;
+   box-shadow: 0px 2px 10px 2px #000000;
+   margin-left:1%;
+   border-radius:5%;
+   margin-bottom:10px;
+}
+.linkedinBtn{
+	 background-color: #0073B1;
+   border:none;
+   color: #fff;
+   padding: 8px;
+   text-align: center;
+   border:none;
+   border-bottom:10px solid #0a3d62;
+   box-shadow: 0px 2px 10px 2px #000000;
+   margin-left:1%;
+   border-radius:5%;
+   margin-bottom:10px;
+}
+.githubBtn{
+   background-color: #24292E;
+   border:none;
+   color: #fff;
+   padding: 8px;
+   text-align: center;
+   border:none;
+   border-bottom:10px solid #2d3436;
+   box-shadow: 0px 2px 10px 2px #000000;
+   margin-left:1%;
+   border-radius:5%;
+   margin-bottom:10px;
+}
+.instagramBtn{
+      background: #d6249f;
+      color: #fff;
+  	background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+   padding: 8px;
+   text-align: center;
+   border:none;
+   border-bottom:10px solid #2d3436;
+   box-shadow: 0px 2px 10px 2px #000000;
+   margin-left:1%;
+   border-radius:5%;
+   margin-bottom:10px;
+}
+
+.facebookBtn:hover , .githubBtn:hover , .twitterBtn:hover , .linkedinBtn:hover , .instagramBtn:hover{
+    padding:7px;
+    cursor: pointer;
+}
+
+::placeholder{
+	color: #fff;
+	font-family:arial,sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+}
+
+@media (max-width: 768px)
+{
+    .contactMeHead
+    {
+		font-size: 9vh;
+
+    }
+
+    #contactForm
+    {
+		width: 98%;
+   }
+
+   #username,#email
+   {
+		height: 10vh;
+		width: 80%;
+   }
+
+   #contactForm textarea
+   {
+		width: 80%;
+   }
+
+     #nextBtn
+     {
+			font-size: 4vh;
+     }
+
+     #socialMediaDiv
+     {
+			width: 95%;
+     }
+
+}
+
+
+
+
+ 
+
